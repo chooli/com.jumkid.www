@@ -1,0 +1,13 @@
+.social-comment-history-panel div{
+    margin:3px 0px;
+    min-height:46px;
+}
+.social-comment-history-panel img{
+    float: left;
+    width: 42px;
+    margin: 0px 3px;
+}
+form#social-comment-form label{
+    width: 36px;
+    height: 10px;
+}

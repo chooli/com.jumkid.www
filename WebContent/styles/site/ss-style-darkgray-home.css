@@ -1,0 +1,117 @@
+div#top_logo_bar_en{
+	position: absolute;
+    height: 71px;
+    width: 138px;
+    float: left;
+    padding: 3px 5px 0px 23px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: MuseoSans, tahoma, SimHei;
+    background: url(../images/site/logo-top-bar-black.png) no-repeat left top;
+}
+
+div#top_logo_bar_zh_CN{
+	position: absolute;
+    height: 71px;
+    width: 138px;
+    float: left;
+    padding: 3px 5px 0px 23px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: MuseoSans, tahoma, SimHei;
+    background: url(../images/site/logo-top-bar.png) no-repeat left top;
+}
+
+div#top_horizontal_panel {
+    margin-left: 320px;
+}
+
+div#top_horizontal_panel div{
+    float: left;
+    width: 105px;
+    height: 36px;
+    background-color: #454545;
+    color: #fff;
+    padding: 15px 2px 0px 2px;
+    margin: 0px 1px;
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+    text-align: center;
+}
+div#top_horizontal_panel div:hover {
+    background-color: #3FBCEF;
+}
+div#top_horizontal_panel a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+div#session_lang_chooser {
+	margin: 13px 15px;
+    float: right;
+}
+div#session_lang_chooser a{
+	font-size: 13px; 
+	color: #fff; 
+	font-weight: normal;
+	text-decoration: none
+}
+div#session_lang_chooser a:hover{
+	color: #3FBCEF;
+}
+
+div.s-home-item-panel {
+    float: left;
+    color: #fff;
+    padding: 0px 0px;
+    margin: 3px 2px;
+    width: 207px;
+    min-height: 196px;
+    background: #000;
+    overflow: hidden;
+    cursor: pointer;
+}
+div.s-home-item-panel div {
+    border-bottom: 0px dotted #fff;
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;      /* IE */
+}
+div.s-home-item-panel img {
+    width: 287px;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+@-webkit-keyframes animatedBackground {
+	0 { background-position: 0 0; }
+	100% { background-position: 100% 0; }
+}
+@-ms-keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+@-moz-keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+div#home-slider-viewer {
+	width: 1053px;
+	height: 472px;
+	background: #fff url(../images/site/post/jk-post-0.jpg) repeat-x left top;
+	-webkit-animation: animatedBackground 338s linear infinite;
+	animation: animatedBackground 338s linear infinite;
+}
+div#home-slider-viewer > div {
+	width: 800px;
+	height: 500px;
+	margin: auto;
+}

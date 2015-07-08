@@ -1,0 +1,103 @@
+div#album_title_indicator {
+    float: left;
+    width: 43px;
+    height: 43px;
+    margin: 0px 3px;
+}
+div#album_title_indicator img{
+    width: 42px;
+}
+div#album_title_panel {
+    font-weight: bold;
+    font-size: 26px;
+}
+div#album_content_panel {
+    font-size: 16px;
+    margin: 15px 5px;
+    text-align: left;
+}
+
+div.album_gallery_item div {
+	text-align: center;
+	/* border: 18px solid #000; */
+	background: #000;
+	padding: 0px 0px;
+}
+div.album_gallery_item label {
+	padding: 8px 15px 5px 8px;
+	font-size: 16px;
+	width: 819px;
+	text-align: left;
+	height: 23px;
+	margin: 0 0 18px;
+	background: #ededed;
+	-moz-border-radius: 0 0 6px 6px;
+	border-radius: 0 0 6px 6px;
+	display: table;
+}
+
+div.album_audio_item {
+    height: 48px;
+    margin: 5px;
+    border-bottom: 1px dotted #ededed;
+}
+div.album_audio_item label{
+    width: 401px;
+}
+div.album_audio_item img{
+    height: 43px;
+    vertical-align: text-top;
+}
+div.album_audio_item audio, vdeio {
+    float: right;
+}
+div.album_audio_control {
+    float: right;
+    width: 230px;
+}
+div.album_audio_control img{
+    cursor: pointer;
+}
+
+div.album_side_panel {
+    color: #898989;
+    margin: 3px 0px 5px 5px;
+    padding: 3px 5px;
+    text-align: left;
+    background-color: #efefef;
+    white-space: nowrap;
+}
+div.album_side_panel h1{
+    text-align: center;
+}
+div.album_side_panel ul{
+    list-style-type: none;
+    padding: 5px 0px;
+    margin: 0px;
+    text-align: left;
+}
+div.album_side_panel li{
+    padding: 5px;
+    overflow:hidden;
+    white-space:no-wrap;
+    text-overflow:ellipsis;
+    text-decoration: none;
+}
+div.album_side_panel li:hover {
+    background: #fff;
+    cursor: pointer;
+    -moz-border-radius: 3px 3px;
+    border-radius: 3px 3px;
+    white-space: nowrap;
+}
+
+div#media_viewer_panel {
+    background-color: #ededed;
+    border: 3px solid #898989;
+    margin: 10px 0px;
+    width: 640px;
+    height: 640px;
+    overflow: auto;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}

@@ -1,0 +1,87 @@
+div#blog_content_panel {
+	font-size: 16px;
+	margin: 15px 5px;
+	text-align: left;
+    word-wrap: break-word;      /* IE */
+    line-height: 2em;
+}
+
+div#blog_title_indicator {
+	float: left;
+	width: 15px;
+	height: 43px;
+	margin: 0px 10px;
+}
+
+div.blog_side_panel {
+	color: #898989;
+	margin: 3px 0px 5px 5px;
+	padding: 3px 5px;
+	text-align: left;
+	background-color: #efefef;
+	white-space: nowrap;
+}
+
+div.blog_side_panel h1 {
+	text-align: center;
+}
+
+div.blog_side_panel ul {
+	list-style-type: none;
+	padding: 5px 0px;
+	margin: 0px;
+	text-align: left;
+}
+
+div.blog_side_panel li {
+	padding: 5px;
+	overflow: hidden;
+	white-space: no-wrap;
+	text-overflow: ellipsis;
+	text-decoration: none;
+}
+
+div.blog_side_panel li:hover {
+	background: #fff;
+	cursor: pointer;
+	-moz-border-radius: 3px 3px;
+	border-radius: 3px 3px;
+	white-space: nowrap;
+}
+
+div.s-blog-item-panel {
+	float: left;
+	color: #000;
+	padding: 3px 5px;
+	margin: 3px 2px;
+	width: 197px;
+	min-height: 190px;
+	background: #ededed;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+div.s-blog-item-panel div {
+	font-size: 21px;
+	font-weight: normal;
+	line-height: 1.5em; //
+	border-bottom: 1px dotted #fff;
+	white-space: pre-wrap; /* CSS3 */
+	white-space: -moz-pre-wrap; /* Firefox */
+	white-space: -pre-wrap; /* Opera <7 */
+	white-space: -o-pre-wrap; /* Opera 7 */
+	word-wrap: break-word; /* IE */
+	margin: 1px 0px 3px 0px;
+}
+
+blockquote {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding: 3px 0px 3px 5px;
+	border-left: 4px solid #ababab;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-style: italic;
+}

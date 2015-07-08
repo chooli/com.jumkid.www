@@ -1,0 +1,88 @@
+div#session_user_panel {
+	float: right;
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 0px 5px 0px 10px;
+}
+div#session_user_panel > div:first-child {
+	float: left;
+	width: 49px;
+	height: 49px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	
+}
+div#session_user_panel button {
+    color: #fff;
+	height: 28px;
+	margin: 0px 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	font-family: "Arial", "Helvetica", "SimHei";
+	font-weight: normal;
+	background: #8dcff4;
+	border: 0px solid #000;
+	vertical-align: middle;
+	-moz-border-radius: 0px 0px 6px 6px;
+	border-radius: 0px 0px 6px 6px;
+	cursor: pointer;
+	outline: none;
+}
+div#session_user_panel button:hover {  
+	border: 0px solid #8dcff4;
+	background: #3FBCEF;
+}
+div#session_user_panel img {
+    vertical-align: middle;
+}
+
+
+div.user_info_input {
+	display: inline-table;
+    width: 480px;
+    padding: 20px 0px;
+    margin: 30px 140px;
+    line-height: 2.5em;
+    border: 3px solid #EFAA14;
+    color: #000;
+    background-color: #fff;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+div.user_info_input a {
+    font-family: "Arial", "Helvetica", "sans-serif";
+    font-size: 11pt;
+    color: #3f4757;
+    font-weight: normal;
+    text-decoration: underline;
+    cursor: pointer;
+}
+div.user_info_input a:hover {
+    font-family: "Arial", "Helvetica", "sans-serif";
+    font-size: 11pt;
+    color:red;
+    font-weight: normal;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+div.user_signin_title {
+	width: 145px;
+	text-align: center;
+	padding: 3px 6px;
+	border: 2px solid #ddd;
+	-moz-border-radius: 2px;
+	border-radius: 16px;
+	background: #ddd;
+}
+img.user_avatar {
+	margin-left:18px;
+	border: 6px solid #eee;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	height:46px;
+	width:46px;
+}

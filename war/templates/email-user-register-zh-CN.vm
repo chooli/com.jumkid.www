@@ -1,0 +1,35 @@
+﻿<div style="background:#8dcff4;padding:5px 5px;">
+
+	<div style="margin:5px auto;color:#000;">
+		<img src="http://www.jumkid.com/zh/images/site/logo-top-bar.png" /> &nbsp;热衷旅行与探索 pursue travel and exploring
+	</div>
+
+	<div style="margin:5px auto;padding:5px 5px;background:#fff;-moz-border-radius: 6px;border-radius: 6px;font-family:Arial,SimHei;">
+
+	<strong>账户注册</strong>
+
+	<div> 
+
+	<p>${msg}, 您在跳蛙网的账户注册已成功，这是一封确认邮件，用于确定您的电子邮件地址的正确性。如果你不是${msg}，不好意思，请忽略掉该邮件。<br/>
+	点击确认 <a href="http://www.jumkid.com/zh/user/confirm/${msg}?locale=zh-CN&sessionId=ADFdf4ssfeeRGjdu87-ETGADFGRGG-423423DDf334342">http://www.jumkid.com/user/confirm/${msg}?locale=zh-CN&sessionId=ADFdf4ssfeeRGjdu87-ETGADFGRGG-423423DDf334342</a>
+	</p>
+
+	<p>祝您愉快！</p>
+
+	</div>
+
+	<p>--</p>
+	<p></p>
+		<div><strong>跳蛙网 Jumkid.com</strong></div>
+		<div>热线电话: 加拿大 (647) 528 2268   |   中国 (86) 186 88797 331</div>
+		<a href="http://www.jumkid.com" target="_blank">www.jumkid.com</a>
+
+	</div>
+	
+	<div style="margin:5px auto;color:#000;">
+	<p>请不要直接回复该邮件，该邮件是通过系统自动发送的。您的回复不会直接发送给发件者，也不会得到发件者的回应。如果你对跳蛙的服务有任何疑问可以点击 &nbsp;<a href="http://www.jumkid.com/zh/contactus" target="_blank">联系我们</a>  </p>
+	
+	<p>© 2015 Jumkid Innovation All rights reserved. 跳蛙创新科技版权所有.  跳蛙，以及跳蛙商标是在加拿大和中国注册的，请尊重我们的版权</p>  
+	</div>
+	
+</div>
